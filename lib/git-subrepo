@@ -411,11 +411,8 @@ command:help() {
 command:version() {
   cat <<...
 git-subrepo Version: $VERSION
-Copyright 2013-2020 Ingy döt Net
-https://github.com/ingydotnet/git-subrepo
 ${BASH_SOURCE[0]}
 Git Version: $git_version
-
 ...
   :
 }
@@ -1389,7 +1386,7 @@ update-gitrepo-file() {
 ; DO NOT EDIT (unless you know what you are doing)
 ;
 ; This subdirectory is a git "subrepo", and this file is maintained by the
-; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+; git-subrepo command. See https://github.com/stealify/git-subrepo#readme
 ;
 ...
     fi

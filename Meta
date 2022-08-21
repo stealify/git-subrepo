@@ -3,7 +3,7 @@
 name: git-subrepo
 version: 0.4.3
 abstract: Git Submodule Alternative
-homepage: https://github.com/ingydotnet/git-subrepo#readme
+homepage: https://github.com/stealify/git-subrepo#readme
 license: MIT
 copyright: 2013-2020
 
@@ -23,6 +23,6 @@ test:
 install: make install
 
 devel:
-  git: git@github.org:ingydotnet/git-subrepo.git
+  git: git@github.org:stealify/git-subrepo.git
   irc: irc.freenode.net/gitcommands
-  bug: https://github.com/ingydotnet/git-subrepo/issues/
+  bug: https://github.com/stealify/git-subrepo/issues/
