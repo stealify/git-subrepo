@@ -415,10 +415,12 @@ command:help() {
 command:version() {
   cat <<...
 git-subrepo Version: $VERSION
+<<<<<<< HEAD
 https://github.com/stealify/git-subrepo
+=======
+>>>>>>> local_changes
 ${BASH_SOURCE[0]}
 Git Version: $git_version
-
 ...
   :
 }
