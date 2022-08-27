@@ -1,6 +1,6 @@
 {
   "name": "git-subrepo",
   "version": "0.0.0-pre.0",
-  "//bin": { "git-subrepo": "git-subrepo-cli.js" },
+  "bin": { "git-subrepo": "git-subrepo-cli.js" },
   "//scripts": { "preinstall": "" }
 }
