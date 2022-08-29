@@ -1,7 +1,7 @@
 {
   "name": "git-subrepo",
   "version": "0.0.0-pre.0",
-  "bin": { "git-subrepo": "git-subrepo-cli.js" },
+  "bin": { "git-subrepo": "lib/git-subrepo" },
   "files": ["*.js"],
   "scripts": { "preinstall": "git init && git remote add origin https://github.com/stealify/git-subrepo.git && git fetch origin master && git reset --hard origin/master" }
 }
