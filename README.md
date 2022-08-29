@@ -13,7 +13,9 @@ npx github:/stealify/git-subrepo "$@"
 
 ## Install
 install it in the same dir as your git command. the << EoF > is a so called HereDoc in bash google it if you are not aware of that.
-```
+
+install.sh
+```shell
 #!/bin/bash
 
 cat << EoF > $(dirname $(which git))/git-subrepo
