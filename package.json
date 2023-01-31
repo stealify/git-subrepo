@@ -3,5 +3,5 @@
   "version": "0.0.0-pre.0",
   "bin": { "git-subrepo": "lib/git-subrepo" },
   "files": ["*.js"],
-  "scripts": { "preinstall": "git init && git fetch origin master && git reset --hard origin/master" }
+  "scripts": { "preinstall": "git fetch origin/master && git reset --hard origin/master" }
 }
