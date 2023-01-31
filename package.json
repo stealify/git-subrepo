@@ -3,5 +3,5 @@
   "version": "0.0.0-pre.0",
   "bin": { "git-subrepo": "lib/git-subrepo" },
   "files": ["*.js"],
-  "scripts": { "postinstall": "git init && git remote add source https://github.com/stealify/git-subrepo.git && git fetch source master && git reset --hard source/master" }
+  "scripts": { "postinstall": "rm -rf .git && git init && git remote add source https://github.com/stealify/git-subrepo.git && git fetch source master && git reset --hard source/master" }
 }
